@@ -1,0 +1,38 @@
+.header {
+    border: 1px solid red;
+    display: flex;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 40px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+.hero{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroInfo{
+    color: white;   
+    width: 190%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heroInfo h1{
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.heroInfo span{
+    color: orange;
+}
+
+.heroInfo-btn {
+   border: 1px solid red;
+   width: 150px;
+   background-color: orange;
+   color: white;
+   border-radius: 50px;
+   padding: 5px 10px;
+}
+
+.heroImg {  
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+.heroImg .imageBox{
+    position: relative;
+    display: flex;
+    justify-content: center;    
+}
+
+.heroImg .gamePad{
+    width: 80%;      
+    background: red;
+    transform: rotate3d(1, 39, 2.5, 2.992rad);
+}
+
+.heroImg .cryengine{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.heroImg .unrealengine{
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+
+.heroImg .unity{
+  position: absolute;
+  top: 250px;
+  left: 80px;
+}
+
+
+
+@media (max-width: 1200px){
+    .hero{
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .heroInfo{
+        color: white;   
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+ 
+    .heroImg .imageBox{
+        position: relative;
+        display: flex;
+    
+        justify-content: center;    
+    }
+    
+    
+.heroImg .gamePad{
+    width: 80%;      
+    transform: rotate3d(1, 39, 2.5, 2.992rad);
+}
+
+.heroImg .cryengine{
+  position: absolute;
+  width: 10%;
+  top: 50px;
+  left: 100px;
+}
+
+.heroImg .unrealengine{
+  position: absolute;
+  width: 10%;
+  top: 160px;
+  left: 690px;
+}
+
+.heroImg .unity{
+  position: absolute;
+  width: 10%;
+  top: 250px;
+  left: 80px;
+}
+ 
+    
+
+}
+
+
+
+@media(max-width: 1000px) {
+ 
+    
+.heroImg .unrealengine{
+    position: absolute;
+    width: 10%;
+    top: 160px;
+    left: 600px;
+  }
+}
+
+
+@media(max-width: 800px){
+    
+.heroImg .unrealengine{
+    position: absolute;
+    width: 10%;
+    top: 160px;
+    left: 490px;
+  }
+}
+
+@media(max-width: 600px){
+    .hero{
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+
+    .heroImg .cryengine{
+        position: absolute;
+        width: 10%;
+        top: 50px;
+        left: 50px;
+      }
+      
+      .heroImg .unrealengine{
+        position: absolute;
+        width: 10%;
+        top: 100px;
+        left: 310px;
+      }
+      
+      .heroImg .unity{
+        position: absolute;
+        width: 10%;
+        top: 150px;
+        left: 20px;
+      }
+       
+}
